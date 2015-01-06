@@ -29,6 +29,11 @@ ul{
 	line-height: 1.4em;
 }
 
+ul li{
+	list-style: none;
+	text-decoration: none;
+}
+
 .intro {
 	background-color: #e9dcb9;
 	width: 1200px;
