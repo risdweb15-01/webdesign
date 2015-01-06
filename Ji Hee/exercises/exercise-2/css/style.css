@@ -1,0 +1,28 @@
+body{
+
+	background-color: yellow;
+}
+
+p{
+
+	color:#ffffff;
+	background-color: #A4A4A4;
+	font-family: Arial, sans-serif;
+	text-indent: 40pt;
+	line-height: 125%;
+
+}
+
+
+h2{
+	color:red;
+	text-align:center;
+	font-family: sans-serif;
+}
+
+ul{
+	font-size: 14pt;
+	font-family: sans-serif;
+	line-height: 125%;
+	
+}
