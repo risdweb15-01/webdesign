@@ -118,6 +118,7 @@ h6{
 	z-index:2;
 	font-size: 32px;
 	font-family: 'Josefin Slab', serif;
+	width:200px;
 	
 }
 
@@ -162,16 +163,6 @@ p{
 
 
 
-
-.c3{
-
-	width:510px;
-	height: 840px;
-	z-index:0;
-	overflow:scroll;
-	
-}
-
 img{
 	vertical-align: 0;
 	margin-left: 45px;
@@ -207,5 +198,15 @@ img{
 
 	width:1000px;
 	height:100px;
+	
+}
+
+
+.c3{
+
+	width:510px;
+	height: 840px;
+	z-index:0;
+	overflow:scroll;
 	
 }
