@@ -4,6 +4,7 @@ body{
     font-family: 'Lekton', sans-serif;
     background-color: #CCCCCC;
 
+
 }
 
 #headerbox{
@@ -332,10 +333,9 @@ body{
     width:1000px;
     height:500px;
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
     position: relative;
-    background-color: black;   
-
+    z-index: +1;
 }
 
 #beer {
@@ -344,15 +344,26 @@ body{
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    background-color: black;
+    z-index: +1;
 
 }
 
-#lol {
-    width:500px;
-    height:300px;
+.lol {
+    width:640px;
+    height:350px;
+    margin-left: auto;
+    margin-right: auto;
     position:relative;
     float:left;
+}
+
+#game {
+    width:500px;
+    height:400px;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    z-index: +1;
 }
 
 p{
