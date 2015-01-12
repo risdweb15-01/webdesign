@@ -125,9 +125,11 @@ body{
 .answerleft{
   float: left;
   text-align: right;
+  margin-left:30px;
 }
 .answerright{
   float: right;
+  margin-right:30px;
   
 }
 .questionleft{
