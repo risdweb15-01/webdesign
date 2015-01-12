@@ -66,12 +66,14 @@
 	background-color: SeaShell ;
 	position:absolute;
 	left:200px;
-	width:750px;
-	top:280px;
+	width:736px;
+	top:250px;
 	color:Thistle ;
 	font-size: 22px;
 	font-family: 'Lora' ;
 	font-style: italic;
+	padding:5px;
+
 }
 
 #q2a p{
@@ -83,56 +85,10 @@
 	color: SlateGray;
 	font-size: 15px;
 	font-family: 'Roboto';
+	padding:7px;
 	
 }
 
-#yay {
-	color:aqua;
-	font-family: 'Roboto', sans-serif;
-	font-style: bold;
-	font-size:40px;
-	text-shadow: 5px 4px 4px #9AFF57;
-}
-
-#yay2 {
-	color: peachpuff;
-	font-family: 'Roboto', sans-serif;
-	font-style: bold;
-	font-size:40px;
-	text-shadow: 5px 4px 4px #FFDAC9;
-}
-
-#yay3 {
-	color: tan;
-	font-family: 'georgia', serif;
-	font-style: bold;
-	font-size:14px;
-	text-shadow: 5px 4px 4px #FFDAC9;
-}
-
-#yay4 {
-	color: indigo;
-	font-family: 'helvetica' sans-serif;
-	font-style: bold;
-	font-size:35px;
-	text-shadow: 5px 4px 4px #FFDAC9;
-}
-
-#yay5 {
-	color: #6495ED;
-	font-family: 'helvetica' sans-serif;
-	font-style: bold;
-	font-size:35px;
-	text-shadow: 5px 4px 4px #C7FFC9;
-}
-
-#yay6 {
-	color: hotpink;
-	font-family: 'helvetica' sans-serif;
-	font-style: bold;
-	font-size:35px;
-	text-shadow: 5px 4px 4px #9EFFA8;
-}
 
 
 #q3 p{
@@ -140,11 +96,13 @@
 	position:absolute;
 	left:470px;
 	width:750px;
-	top:940px;
+	top:1070px;
 	color:Thistle ;
 	font-size: 22px;
 	font-family: 'Lora' ;
 	font-style: italic;
+	padding:7px;
+
 }
 
 #q3a p{
@@ -152,10 +110,11 @@
 	position:absolute;
 	left:470px;
 	width:750px;
-	top:1000px;
+	top:1130px;
 	color: SlateGray;
 	font-size: 15px;
 	font-family: 'Roboto';
+	line-height: 22px;
 	
 }
 
@@ -204,10 +163,11 @@
 	position:absolute;
 	left:300px;
 	width:750px;
-	top:1430px;
+	top:1410px;
 	color: SlateGray;
 	font-size: 15px;
 	font-family: 'Roboto';
+	line-height: 22px;
 	
 }
 
@@ -217,22 +177,24 @@
 	position:absolute;
 	left:40px;
 	width:700px;
-	top:1740px;
+	top:1790px;
 	color:Thistle ;
 	font-size: 22px;
 	font-family: 'Lora' ;
 	font-style: italic;
+	padding:4px;
 }
 
 #q5a p{
 	background-color: SeaShell ;
 	position:absolute;
-	left:60px;
+	left:35px;
 	width:750px;
 	top:1900px;
 	color: SlateGray;
 	font-size: 15px;
 	font-family: 'Roboto';
+	padding:4px;
 	
 }
 
@@ -240,23 +202,26 @@
 	background-color: SeaShell ;
 	position:absolute;
 	left:40px;
-	width:700px;
+	width:690px;
 	top:2240px;
 	color:Thistle ;
 	font-size: 22px;
 	font-family: 'Lora' ;
 	font-style: italic;
+	padding:5px;
 }
 
 #q6a p{
 	background-color: SeaShell ;
 	position:absolute;
-	left:60px;
+	left:40px;
 	width:850px;
-	top:2450px;
+	top:2380px;
 	color: SlateGray;
 	font-size: 15px;
 	font-family: 'Roboto';
+	padding:5px;
+	line-height: 23px;
 	
 }
 
@@ -270,6 +235,8 @@
 	font-size: 22px;
 	font-family: 'Lora' ;
 	font-style: italic;
+	padding:4px;
+
 }
 
 #q7a p{
@@ -281,6 +248,8 @@
 	color: SlateGray;
 	font-size: 15px;
 	font-family: 'Roboto';
+	padding:4px;
+	line-height: 22px;
 	
 }
 
@@ -288,12 +257,13 @@
 	background-color: SeaShell ;
 	position:absolute;
 	left:40px;
-	width:450px;
+	width:404px;
 	top:3200px;
 	color:Thistle ;
 	font-size: 22px;
 	font-family: 'Lora' ;
 	font-style: italic;
+	padding:4px;
 }
 
 #q8a p{
@@ -301,11 +271,12 @@
 	position:absolute;
 	left:40px;
 	width:400px;
-	top:3250px;
+	top:3260px;
 	color: SlateGray;
 	font-size: 15px;
 	font-family: 'Roboto';
-	
+	padding:6px;
+	line-height: 25px;
 }
 
 #q9 p{
@@ -355,4 +326,52 @@
 	margin-top: 170px;
 	margin-bottom: 40px;
 	text-decoration: underline;
+}
+
+#yay {
+	color:aqua;
+	font-family: 'Roboto', sans-serif;
+	font-style: bold;
+	font-size:40px;
+	text-shadow: 5px 4px 4px #9AFF57;
+}
+
+#yay2 {
+	color: peachpuff;
+	font-family: 'Roboto', sans-serif;
+	font-style: bold;
+	font-size:40px;
+	text-shadow: 5px 4px 4px #FFDAC9;
+}
+
+#yay3 {
+	color: tan;
+	font-family: 'georgia', serif;
+	font-style: bold;
+	font-size:14px;
+	text-shadow: 5px 4px 4px #FFDAC9;
+}
+
+#yay4 {
+	color: indigo;
+	font-family: 'helvetica' sans-serif;
+	font-style: bold;
+	font-size:35px;
+	text-shadow: 5px 4px 4px #FFDAC9;
+}
+
+#yay5 {
+	color: #6495ED;
+	font-family: 'helvetica' sans-serif;
+	font-style: bold;
+	font-size:35px;
+	text-shadow: 5px 4px 4px #C7FFC9;
+}
+
+#yay6 {
+	color: hotpink;
+	font-family: 'helvetica' sans-serif;
+	font-style: bold;
+	font-size:35px;
+	text-shadow: 5px 4px 4px #9EFFA8;
 }
