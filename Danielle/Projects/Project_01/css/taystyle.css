@@ -1,0 +1,127 @@
+
+
+body{
+	background-color: black;
+}
+
+
+#table{
+	position:fixed;
+	padding-left: 100px;
+	width:1510px;
+	height:100px;
+	z-index:1;
+	background-color: black;
+}
+
+
+
+.c{
+	
+	width:550px;
+	height: 840px;
+	float:left;
+	position:absolute;
+}
+
+
+
+#one{
+background-color: red;
+position:fixed;
+}
+
+.box{
+	width:475px;
+	height:250px;
+	float:left;
+	margin-left: 35px;
+	overflow:scroll;
+	position:fixed;
+}
+
+#life{
+
+	background-color: blue;
+	margin-top:100px;
+	
+}
+
+p{
+	position: absolute;
+	font-family:times, serif;
+	font-size: 32px;
+	color:white;
+	text-indent: 50px;
+	text-align: right;
+	padding-left: 20px;
+	padding-bottom: 15px;
+	padding-right: 20px;
+}
+
+
+#career{
+
+	background-color:blue;
+	margin-top: 450px;
+	
+}
+
+
+#album{
+
+	background-color: blue;
+	margin-top:100px;
+}
+
+#influences{
+	background-color: blue;
+	margin-top: 450px;
+}
+
+#two{
+	background-color: red;
+	position:fixed;
+	margin-left: 1060px;
+}
+
+
+h1{
+	font-family: 'Lobster', cursive;
+	color: #ffdab9;
+	bottom:0;
+	position: absolute;
+	font-size: 48px;
+	margin-left:10px;
+
+}
+
+.c3{
+
+	width:510px;
+	height: 840px;
+	z-index:0;
+	
+}
+#three{
+	background-color: black;
+	margin-left: 550px;
+	position:fixed;
+	
+
+}
+
+
+.container2{
+
+	width:1700px;
+	height:840px;
+	
+}
+
+.container1{
+
+	width:1000px;
+	height:100px;
+	
+}
