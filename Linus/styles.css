@@ -1,0 +1,32 @@
+#hello {
+color:blue;
+}
+
+p {
+	color:black;
+}
+
+.container {
+position: absolute;
+top:1000;
+right:1000;
+z-index:-1;
+
+width: 100px;
+height: 100px;
+background-color: pink;
+margin: auto;
+padding:50px;
+border: 5px dotted grey;
+text-align:center;
+
+}
+
+
+.boxmodel {
+	width: 200px;
+	height: 200px;
+	padding:150px;
+	margin: auto;
+	background-color:lightpink;
+}

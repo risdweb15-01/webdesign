@@ -1,0 +1,353 @@
+body{
+
+	background-color: white; 
+    font-family: 'Lekton', sans-serif;
+    background-color: #CCCCCC;
+
+}
+
+#headerbox{
+
+    width:400px;
+    height:400px;
+    background-color: #FFC266;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#headerbox p{
+    color: black;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+    top: 25%;
+}
+
+#headerbox h1{
+    color: black;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+    top: 25%;
+}
+
+
+
+#imagebox {
+
+    width:900px;
+    height:3500px;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+
+}
+
+.koufaxbox {
+
+    width:640px;
+    height:433px;
+    z-index: +1;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+
+}
+
+.textbox1 {
+
+    width: 125px;
+    height: 125px;
+    background-color: grey;
+    float:right;
+    position:relative;
+    bottom:150px;
+    right:20px;
+}
+
+.textbox1 p{
+
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+}
+
+.gibsonbox {
+
+    width:640px;
+    height:432px;
+    z-index: +1;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+
+}
+
+.textbox2 {
+
+    width: 125px;
+    height: 125px;
+    background-color: grey;
+    float:right;
+    position:relative;
+    bottom:150px;
+    right:20px;
+}
+
+.textbox2 p{
+
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+}
+
+.orelbox {
+
+    width:640px;
+    height:482px;
+    z-index: +1;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+}
+
+.textbox3 {
+
+    width: 130px;
+    height: 130px;
+    background-color: grey;
+    float:right;
+    position:relative;
+    bottom:150px;
+    right:20px;
+}
+
+.textbox3 p{
+
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+}
+
+.johnsonbox {
+
+    width:640px;
+    height:482px;
+    z-index: +1;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+}
+
+.textbox4 {
+
+    width: 145px;
+    height: 145px;
+    background-color: grey;
+    float:right;
+    position:relative;
+    bottom:175px;
+    right:20px;
+}
+
+.textbox4 p{
+
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+}
+
+.riverabox {
+
+    width:640px;
+    height:451px;
+    z-index: +1;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+}
+
+.textbox5 {
+
+    width: 140px;
+    height: 140px;
+    background-color: grey;
+    float:right;
+    position:relative;
+    bottom:175px;
+    right:20px;
+}
+
+.textbox5 p{
+
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+}
+
+.bumgarnerbox {
+
+    width:640px;
+    height:404px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+}
+
+.textbox6 {
+
+    width: 140px;
+    height: 140px;
+    background-color: grey;
+    float:right;
+    position:relative;
+    bottom:175px;
+    right:20px;
+}
+
+.textbox6 p{
+
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+}
+
+#bummiddle{
+    width:452px;
+    height:636px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#widebum {
+    width:490px;
+    height:200px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+.mlbtext {
+    width: 500px;
+    height: 130px;
+    position:relative;
+    float:left;
+    text-align: left;
+    background-color: #FFC266;
+    padding:10px;
+    left:20px;
+}
+
+.mlbtext p{
+    color:grey;
+    position:absolute;
+    text-align: left;
+}
+
+.bumtext {
+    width: 500px;
+    height: 130px;
+    position:relative;
+    float:right;
+    background-color: grey;
+    padding:10px;
+    right:20px;
+}
+
+.bumtext p{
+    color:  #FFC266;
+    position:absolute;
+    text-align: left;
+}
+
+#listbox{
+
+    width: 350px;
+    height: 350px;
+    margin-left: auto;
+    margin-right:auto;
+    background-color: pink;
+    padding: 5px;
+
+}
+
+#listbox ul{
+
+    color: grey;
+    line-height: 100%;
+    text-align:left;
+    float:left;
+    top:5%;
+    position: relative;
+}
+
+#mlbbox {
+
+    width:100px;
+    height:30px;
+    position:relative;
+    float:left;
+    background-color:  #CCCCCC ;
+    border-style: solid;
+    border-width:2px;
+    border-color: white;
+    left:20px;
+}
+
+#mlbbox p{
+
+    color:white;
+    text-align: center;
+    vertical-align:middle;
+    line-height:5px;
+
+}
+
+#bumbox { 
+    width:200px;
+    height:30px;
+    position:relative;
+    float:right;
+    background-color:  #CCCCCC ;
+    border-style: solid;
+    border-width:2px;
+    border-color: white;
+    right:20px;
+
+}
+
+#bumbox p{
+    
+    color: white;
+    text-align: center;
+    vertical-align:middle;
+    line-height:5px;
+}
+
+#lol {
+    width:500px;
+    height:300px;
+    position:relative;
+    float:left;
+}
+
+p{
+            color: white;
+            text-align: center;
+         }
+
+h1{
+            color: #E68A00;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+h2{
+            color: white;
+            text-align: center;
+
+        }
