@@ -11,16 +11,11 @@ body{
 	width:1510px;
 	height:100px;
 	z-index:1;
-	background-color: #4682B4;
+	background-color: black;
 	overflow:auto;
 }
 
-h6{
-	color: #ffdab9;	
-	z-index:2;
-	font-size: 32px;
-	
-}
+
 
 .header{
 	width:100px;
@@ -46,7 +41,7 @@ h6{
 
 
 #one{
-background-color: #D8BFD8;
+background-color: red;
 position:fixed;
 }
 
@@ -61,13 +56,23 @@ position:fixed;
 
 #life{
 
-	background-color: #afeeee;
+	background-color: black;
 	margin-top:100px;
 	
 }
 
+
+h1{
+	font-family: 'Dancing Script', cursive;
+	color: #ffdab9;
+	bottom:0;
+	font-size: 48px;
+	margin-left:10px;
+	position: absolute;
+}
+
 h2{
-	color: #FFA07A;
+	color: #C0C0C0;
 	font-size: 32px;
 	font-style: bold;
 	text-align: right;
@@ -78,7 +83,7 @@ h2{
 
 }
 h3{
-	color: #CD5C5C;
+	color: #DC143C;
 	font-family: 'Indie Flower', cursive;
 	text-align: right;
 	padding-left: 20px;
@@ -87,7 +92,7 @@ h3{
 
 }
 h4{
-	color: #FFA07A;
+	color: #C0C0C0;
 	font-size: 32px;
 	font-style: bold;
 	text-align: left;
@@ -95,10 +100,11 @@ h4{
 	padding-left: 20px;
 	padding-bottom: 15px;
 	padding-right: 20px;
+	position:relative;
 
 }
 h5{
-	color: #CD5C5C;
+	color: #DC143C;
 	font-family: 'Indie Flower', cursive;
 	text-align: left;
 	padding-left: 20px;
@@ -107,9 +113,17 @@ h5{
 	font-size: 20px;
 }
 
+h6{
+	color: #ffdab9;	
+	z-index:2;
+	font-size: 32px;
+	font-family: 'Josefin Slab', serif;
+	
+}
+
 p{
 
-	font-family:times, serif;
+	font-family: 'Josefin Slab', serif;
 	color: #DC143C;
 	text-align: center;
 	text-indent: 50px;
@@ -122,7 +136,7 @@ p{
 
 #career{
 
-	background-color:#afeeee;
+	background-color:black;
 	margin-top: 450px;
 	
 }
@@ -130,30 +144,23 @@ p{
 
 #album{
 
-	background-color: #afeeee;
+	background-color: black;
 	margin-top:100px;
 }
 
 #influences{
-	background-color: #afeeee;
+	background-color: black;
 	margin-top: 450px;
+	font-size: 20px;
 }
 
 #two{
-	background-color: #D8BFD8;
+	background-color: red;
 	position:fixed;
 	margin-left: 1060px;
 }
 
 
-h1{
-	font-family: 'Lobster', cursive;
-	color: #ffdab9;
-	bottom:0;
-	font-size: 48px;
-	margin-left:10px;
-	position: absolute;
-}
 
 
 .c3{
@@ -181,7 +188,7 @@ img{
 
 }
 #three{
-	background-color: #4682B4;
+	background-color: black;
 	margin-left: 550px;
 	position:fixed;
 	
