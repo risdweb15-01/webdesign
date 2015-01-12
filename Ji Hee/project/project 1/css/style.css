@@ -16,21 +16,17 @@ h1{
 	text-align: right;
 	margin: 0 auto;
 	padding: 10px 40px 10px 50px;
-	z-index: 8;
+	
 }
 
 #mickey{
-	margin-left: 10px;
+	padding-left: 20px;
 	position: fixed;
 	float: left;
 }
 
 
-#mickey2{
-	margin-left: 10px;
-	position: fixed;
-	float: right;
-}
+
 
 
 #intro{
@@ -74,7 +70,7 @@ margin-top: 20px;
 width: 700px;
 margin: auto;
 padding-top: 500px;
-z-index: 10;
+
 
 
 
@@ -86,7 +82,7 @@ z-index: 10;
 width: 700px;
 margin: auto;
 padding-top: 100px;
-z-index: 10;
+
 
 
 
@@ -152,7 +148,7 @@ padding: 10px 20px 10px 20px;
 font-family: 'Cabin', sans-serif;
 font-weight: 600;
 font-size: 15px;
-z-index: 10;
+border-radius: 8px;
 
 
 
@@ -168,7 +164,7 @@ padding: 10px 20px 30px 20px;
 font-family: 'Ubuntu', sans-serif;
 font-size: 15px;
 font-weight: 300;
-z-index: 10;
+border-radius: 8px;
 
 
 
@@ -185,8 +181,9 @@ padding: 10px 20px 10px 20px;
 font-family: 'Ubuntu', sans-serif;
 font-size: 15px;
 font-weight: 300;
-z-index: 10;
 color: white;
+border-radius: 8px;
+
 
 
 
@@ -262,7 +259,7 @@ z-index: 10;
 	width : 120px;
 float:left;
 margin-left: 20px;
-z-index: 10;
+
 }
 
 
