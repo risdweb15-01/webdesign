@@ -11,10 +11,29 @@ body{
 	width:1510px;
 	height:100px;
 	z-index:1;
-	background-color: black;
+	background-color: #4682B4;
+	overflow:auto;
 }
 
+h6{
+	color: #ffdab9;	
+	z-index:2;
+	font-size: 32px;
+	
+}
 
+.header{
+	width:100px;
+	height:50px;
+	background-color: white;
+	position: fixed;
+	margin-left: 35px;
+
+}
+
+#words{
+	margin-top: 50px;
+}
 
 .c{
 	
@@ -27,7 +46,7 @@ body{
 
 
 #one{
-background-color: red;
+background-color: #D8BFD8;
 position:fixed;
 }
 
@@ -42,27 +61,68 @@ position:fixed;
 
 #life{
 
-	background-color: blue;
+	background-color: #afeeee;
 	margin-top:100px;
 	
 }
 
-p{
-	position: absolute;
-	font-family:times, serif;
+h2{
+	color: #FFA07A;
 	font-size: 32px;
-	color:white;
-	text-indent: 50px;
+	font-style: bold;
+	text-align: right;
+	font-family: 'Lobster', cursive;
+	padding-left: 20px;
+	padding-bottom: 15px;
+	padding-right: 20px;
+
+}
+h3{
+	color: #CD5C5C;
+	font-family: 'Indie Flower', cursive;
 	text-align: right;
 	padding-left: 20px;
 	padding-bottom: 15px;
 	padding-right: 20px;
+
+}
+h4{
+	color: #FFA07A;
+	font-size: 32px;
+	font-style: bold;
+	text-align: left;
+	font-family: 'Lobster', cursive;
+	padding-left: 20px;
+	padding-bottom: 15px;
+	padding-right: 20px;
+
+}
+h5{
+	color: #CD5C5C;
+	font-family: 'Indie Flower', cursive;
+	text-align: left;
+	padding-left: 20px;
+	padding-bottom: 15px;
+	padding-right: 20px;
+	font-size: 20px;
+}
+
+p{
+
+	font-family:times, serif;
+	color: #DC143C;
+	text-align: center;
+	text-indent: 50px;
+	padding-left: 20px;
+	padding-bottom: 15px;
+	padding-right: 20px;
+	
 }
 
 
 #career{
 
-	background-color:blue;
+	background-color:#afeeee;
 	margin-top: 450px;
 	
 }
@@ -70,17 +130,17 @@ p{
 
 #album{
 
-	background-color: blue;
+	background-color: #afeeee;
 	margin-top:100px;
 }
 
 #influences{
-	background-color: blue;
+	background-color: #afeeee;
 	margin-top: 450px;
 }
 
 #two{
-	background-color: red;
+	background-color: #D8BFD8;
 	position:fixed;
 	margin-left: 1060px;
 }
@@ -90,21 +150,38 @@ h1{
 	font-family: 'Lobster', cursive;
 	color: #ffdab9;
 	bottom:0;
-	position: absolute;
 	font-size: 48px;
 	margin-left:10px;
-
+	position: absolute;
 }
+
 
 .c3{
 
 	width:510px;
 	height: 840px;
 	z-index:0;
+	overflow:scroll;
 	
 }
+
+img{
+	vertical-align: 0;
+	margin-left: 45px;
+}
+.hey{
+	margin-left: 0px;
+}
+
+#margin{
+
+	margin-left: 60px;
+	margin-top: 20px;
+
+
+}
 #three{
-	background-color: black;
+	background-color: #4682B4;
 	margin-left: 550px;
 	position:fixed;
 	
