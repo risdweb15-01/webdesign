@@ -1,4 +1,7 @@
-
+body {
+    background-image: url("img/Prettywoman.png");
+    background-color: green;
+}
 
 
 #container{
@@ -158,6 +161,8 @@
 		top:30px;
 		left:-20px;
     }
+
+
 
     .prettywoman{
         width:700px;
