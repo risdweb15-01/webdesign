@@ -24,6 +24,8 @@ h1{
 	position: fixed;
 	float: left;
 }
+
+
 #mickey2{
 	margin-left: 10px;
 	position: fixed;
@@ -42,6 +44,8 @@ h1{
 
 }
 
+
+
 .semiintro{
 	width: 700px;
 	text-align: justify;
@@ -52,6 +56,8 @@ h1{
 	font-size: 20px;
 }
 
+
+
 #fletcherpic {
 	width : 120px;
 float:left;
@@ -61,13 +67,7 @@ margin-top: 20px;
 }
 
 
-#box {
-	background-color: grey;
-	width: 800px;
-	margin: auto;
-	z-index: 1;
-	position: absolute;
-}
+
 
 
 #left {
