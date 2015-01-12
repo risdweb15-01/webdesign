@@ -3,7 +3,7 @@ body{
     }
 .wrap{
     width:800px;
-    height:1800px;
+    height:2000px;
     background: linear-gradient(#89d3dc, #acd9ba ,#ffe6b0); 
     /*border:2px solid white;*/
     margin:auto;
@@ -16,7 +16,9 @@ body{
     font-weight: bold;
     color:#585858 ;
     line-height: 140%;
-    position: relative;
+    position: absolute;
+    top:0px;
+    left:348px;
     z-index: 33;
 }
 #title_1{
@@ -263,4 +265,11 @@ blockquote p {
     top:930px;
     left:940px;
     color:#f294a6;
+}
+#pho{
+    width:250px;
+    height:175px;
+    position:absolute;
+    top:800px;
+    left:1500px;
 }
