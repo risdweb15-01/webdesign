@@ -1,0 +1,56 @@
+body {
+	background: -webkit-linear-gradient(top, 
+	#e4f5fc 0%,#9fd8ef 44%,#2ab0ed 91%);
+	border: solid blue 10px;
+	border-width: 20px;
+}
+
+p { 
+	font-family:  'Roboto', sans-serif;
+	font-size: 11px;
+	line-height: 110%;
+	text-align: center;
+	margin: 29px;
+ 	color:blue;
+}
+
+h2 {
+	font-family: DINWeb, sans-serif!important;
+	color:blue; 
+	text-align: center;
+	font-size: 11px;
+	line-height: 140%;
+}
+
+h4 {
+	font-family: DINWeb, sans-serif!important;
+	color: blue;font-size: 11px;
+	text-align: center;
+	line-height: 140%;
+}
+
+ol {
+	font-family: DINWeb, sans-serif!important;
+	color:blue;
+	font-size: 11px;
+	text-align: center;
+	line-height: 140%;
+}
+
+.hello {
+	text-shadow: 4px 4px blue;
+	color: white;
+	text-align: center;
+	top:-850px;
+	position: absolute;
+	width: 100%;
+	font-size: 550px;
+	font-family: DINWeb, sans-serif!important;
+}
+
+.image {
+	height:400px;
+	width:300px;
+	top:200px
+	position: absolute;
+}

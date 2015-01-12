@@ -1,0 +1,121 @@
+body {
+	background:url("../images/victoriantextureedited.jpg");
+	 }
+
+.intro {
+	font-family: 'Playfair Display', serif;
+	font-size: 17px;
+	top:70px;
+	letter-spacing: .5px;
+	color: black;
+	opacity: .8;
+	}
+
+.packaging {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.youarereading {
+	position:fixed;
+	top:10px;right:-20px;
+	z-index: 300;
+}
+
+.interviewer {
+	font-family: 'Playfair Display', serif;
+	color: #660033;
+	letter-spacing: .7px;
+	line-height: 22px;
+}
+
+.interviewee {
+	font-family: 'Cabin Condensed', sans-serif;
+	color: #660033;
+	letter-spacing: .5px;
+	line-height: 22px;
+}
+
+#wrapper {
+	position:absolute;
+	top:1200px;left:-1px;
+	width: 100%; margin: 0 auto; text-align: left;
+		overflow:none;
+}
+
+.playfair {
+	font-family: 'Playfair Display', serif;
+}
+
+.rectangle {
+	position:absolute;
+	top:1285px;
+	left:80px;
+	opacity:.4;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fullbleedimage {
+	position: absolute;
+	top: 0px; left:0px;
+}
+
+.telegrambanknotes {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.collection {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.newspaper {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intromessage {
+	float:left;
+}
+.book {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.annie {
+	display:block;
+	left:50%;
+	margin:0 auto;
+}
+
+.bottomimage {
+	position:relative;
+	bottom:-10px;
+
+}
+
+.textcontainer {
+	margin:0 auto;
+	left: 50%;
+	display:block;
+	width: 65%; height: auto;
+	padding: 100px;
+}
+
+h3 {
+	top:30px;
+	letter-spacing: 1.2px;
+	font-size: 28px;
+	opacity:.85;
+	font-family: 'Playfair Display', serif;
+	color: white;
+	text-align: center;
+}

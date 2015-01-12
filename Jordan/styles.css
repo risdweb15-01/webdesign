@@ -1,0 +1,22 @@
+#container {
+	width:800px;
+	height:800px;
+	padding:0px;
+	margin:0px;
+	position:fixed;
+	border: 1px solid black;
+}
+
+.redsquare {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	float: left;
+}
+
+.whitesquare {
+	width: 100px;
+	height: 100px;
+	background:white;
+	float:left;
+}
