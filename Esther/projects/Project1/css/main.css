@@ -121,3 +121,11 @@ h4 {
 	text-align: center;
 	line-height: 10px
 }
+
+a:link {
+	color: #ffc600;
+}
+
+a:visited { 
+	color: #72ff00; 
+}

@@ -208,5 +208,6 @@ img{
 	height: 840px;
 	z-index:0;
 	overflow:scroll;
+	line-height: 30px;
 	
 }
