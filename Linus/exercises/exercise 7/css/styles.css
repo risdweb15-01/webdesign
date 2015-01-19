@@ -1,0 +1,136 @@
+body{
+
+	background-color: white; 
+    font-family: 'Abril Fatface', cursive;
+    background-color: #F0F0F0;
+    background-image: url(../img);
+
+}
+
+p{
+    color: black;
+    text-align: center;
+    position:relative;
+}
+
+a:link{
+        
+    color: grey;
+    text-decoration:none;
+}
+
+a:visited {
+        
+    color: black;
+    text-decoration:none;
+}
+
+a:hover {
+
+    color:orange;
+
+}
+
+a:active {
+
+    color:red;
+}
+
+
+
+
+
+
+.menubar ul ul{
+    display:block;
+}
+
+.menubar li:hover > ul {
+    display:block;
+}
+
+
+
+
+
+
+#google p {
+
+    text-align: center;
+}
+
+#airdrive a:hover {
+
+    margin-left: auto;
+    margin-right: auto;
+    background-position: -150px 0;
+
+}
+
+#circle {
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+}
+
+#circle p{
+
+    top:40%;
+    text-align: center;
+}
+
+#bigbox {
+
+    width:1024px;
+    height:710px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-color: yellow;
+
+}
+
+#bigbox p{
+
+    bottom:0;
+    right:0;
+}
+
+#bmw {
+
+    width:1024px;
+    height:710px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 1;
+
+}
+
+
+#airdrive {
+
+    width:818px;
+    height:544px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+
+}
+
+
+a:hover img{
+
+    opacity: 0.5;
+    transform: rotate(-10deg);
+    transform-origin:0 100%;
+
+}
+
+}
