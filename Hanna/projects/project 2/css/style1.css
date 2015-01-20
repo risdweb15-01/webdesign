@@ -1,0 +1,135 @@
+body{
+
+
+}
+
+.header1 {
+	margin: auto auto auto auto;
+	width: 600px;
+	height: 100px;
+}
+
+.big-box {
+	margin: auto auto auto auto;
+	width: 800px;
+	height: 1000px;
+}
+
+
+#c:link{
+	color: white;
+	background-color: gray;
+	text-decoration: none;
+}
+
+#c:visited {
+	color: white;
+	background-color: gray;
+	text-decoration: none;
+}
+
+.work-button:hover {
+	color: white;
+	background-color: gray;
+	text-decoration: none;
+}
+
+
+#c:active {
+	color: white;
+	background-color: gray;
+	text-decoration: none;
+}
+
+
+#a:link{
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+	color: black;
+}
+
+#a:visited {
+	color: black;
+}
+
+.about-button:hover {
+	color: white;
+	background-color: gray;
+	text-decoration: none;
+}
+
+#a:hover{
+	color:white;
+	background-color: gray;
+}
+
+#a:active {
+	color: white;
+	text-decoration: none;
+}
+
+#b:link{
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+	text-decoration: none;
+	color: black;
+}
+
+#b:visited {
+	color: black;
+}
+
+#b:hover {
+	color: gray;
+	text-decoration: none;
+}
+
+#b:active {
+	color: black;
+	text-decoration: none;
+}
+
+.about-button {
+	position: relative;
+	float: left;
+	text-align: center;
+	line-height: 90px;
+	width: 100px;
+	height: 100px;
+	margin-left: 10px;
+	margin-right: 20px;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+}
+
+.home-button {
+	position: relative;
+	float: left;
+	text-align: center;
+	line-height: 90px;
+	width: 300px;
+	height: 100px;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+}
+
+.work-button {
+	position: relative;
+	float: left;
+	text-align: center;
+	line-height: 90px;
+	width: 100px;
+	height: 100px;
+	margin-left: 20px;
+	margin-right: 10px;
+	background-color: gray;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+}
+
