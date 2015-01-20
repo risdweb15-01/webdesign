@@ -1,0 +1,61 @@
+
+
+.metahaven{
+
+	width:700px;
+	height:450px;
+	position: relative;
+	float:left;
+	font-variant: small-caps;
+	background-color: #ffffff
+}
+
+
+
+#one{
+margin-right: 100px;
+margin-bottom: 10px;
+font-variant:small-caps;
+
+}
+
+#two{
+	margin-bottom:10px;
+	text-align: right;
+}
+
+#logo{
+	margin-left: 700px;
+	margin-top: 375px;
+	width:100px;
+	height:100px;
+}
+
+#three{
+	margin-right: 100px;
+	margin-bottom: 10px;
+	font-variant: small-caps;
+}
+
+#four{
+	font-variant: small-caps;
+}
+
+div div{
+	margin-top: 420px;
+}
+
+span{
+	margin-left: 595px;
+
+}
+
+a:link{
+	color:black;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+a:visited{
+	color:black;
+}
