@@ -1,0 +1,56 @@
+.flex-container {
+  padding: 0;
+  margin: 50px;
+  list-style: none;
+
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background: grey;
+  padding: 20px;
+  width: 500px;
+  height: 300px;
+  margin-top: 30px;
+  
+}
+
+#head {
+
+font-size: 100px;
+text-align: center;
+margin-top: 30px;
+
+}
+
+#web {
+  font-size: 50px;
+}
+
+#title {
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+#box {
+  font-size: 20px;
+  line-height: 2em;
+  padding: 10px;
+
+}
+
+
+p {
+  margin:10px;
+  text-indent: 20px;
+}
+

@@ -63,16 +63,18 @@ font-size: 50px;
 
 #giraffe {
 	position: absolute;
-	padding-top: 40px;
+	padding-top: 0px;
 	z-index: -1;
+  opacity: 50%;
 }
 
 #polar{
 	right: 0;
 	position: absolute;
-	padding-top: 450px;
+	padding-top: 300px;
 	z-index: -1;
 	padding-bottom: 200px;
+  opacity: 50%;
 }
 
 #chunk {
@@ -503,42 +505,37 @@ font-size: 50px;
 
 #picbox{
 
-	width:450px;
-	height:600px;
+	width:800px;
+	height:300px;
 	padding-top: 50px;
 	margin-left: auto;
 	margin-right: auto;
+  
+
 
 
 }
 
 
 .explanation {
-	padding-top: 50px;
+  width: 300px;
+	padding-top: 0px;
 	padding-bottom: 20px;
-	margin-right: auto;
+	margin-right: 50px;
 	margin-left: auto;
 	margin-bottom: 100px;
 	font-family: 'Quicksand', sans-serif;
 	font-size: 15px;
-	text-align: center;
-	line-height: 2em;
+	line-height: 1.4em;
+  float:left;
 }
 
 
-<--#*container {
-
-	width: 550px;
-	height: relative;
-	margin-top: 50px;
-	margin-right: auto;
-	margin-left: auto;
-	border-color: #000066;
-	border:1.5px solid;
-	
-
-
+#title1 {
+  font-weight: 700;
 }
+
+
 
 
 

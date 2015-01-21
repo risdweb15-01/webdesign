@@ -1,8 +1,8 @@
 .col{
     color:#fff;
 		float:left;
-		margin:2%;
-		width: 46%;
+		margin:5%;
+		width: 40%;
 }
 .one{
   background-color: #e95b33;
@@ -12,8 +12,25 @@
   background-color: #40b7d7;
 }
 
+.three {
+	background-color: pink;
+	color: white;
+	width: 20%;
+	margin: 5%;
+
+}
+
+
 	@media screen and (max-width: 600px) { 
 		.col{
+			float: none;
+			margin:0;
+			width: 100%;
+		}
+	}
+
+	@media screen and (max-width: 300px) { 
+		.three{
 			float: none;
 			margin:0;
 			width: 100%;
