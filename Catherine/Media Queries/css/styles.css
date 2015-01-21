@@ -2,7 +2,7 @@
     color:#fff;
 		float:left;
 		margin:2%;
-		width: 46%;
+		width: 86%;
 }
 .one{
   background-color: #e95b33;
@@ -12,6 +12,30 @@
   background-color: #40b7d7;
 }
 
+
+.three{
+	background-color:#000000;
+	color:#ffffff;
+	width:20%;
+	margin:5%;
+}
+
+
+img{
+	max-width:100%;
+}
+
+	@media screen and (max-width: 1200px) { 
+		.three{
+			float: none;
+			margin:0;
+			width: 100%;
+		}
+	}
+
+
+
+
 	@media screen and (max-width: 600px) { 
 		.col{
 			float: none;
@@ -19,3 +43,5 @@
 			width: 100%;
 		}
 	}
+
+
