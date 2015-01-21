@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Web Type</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- fonts from https://www.google.com/fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300' rel='stylesheet' type='text/css'>
+
+		<link href='http://fonts.googleapis.com/css?family=Linden+Hill:400,400italic' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    
+    <body>
+
+    	<h1>Web type and font-face declaration</h1>
+
+		<p>Learn how to use the @font-face declaration in its basic form.</p>
+		
+		<p>Use <a href="http://www.fontsquirrel.com/tools/webfont-generator">Font-squirrel&#8217;s generator</a> for more robust rules that can be used in production.</li>
+
+		<p>Or use another service...</p>
+
+		<ul>
+			<li><a href="http://www.webtype.com">Webtype</a>  (Get your Cyrus Highsmith here)</li>
+			<li><a href="https://typekit.com">TypeKit</a></li>
+			<li><a href="http://www.fonts.com">Fonts.com</a></li>
+			<li><a href="http://www.typography.com/cloud/welcome">Cloud.typography</a></li>
+			<li><a href="http://typecast.com">Typecast</a></li>
+			<li><a href="http://fontdeck.com">Font Deck</a></li>
+			<li><a href="https://www.theleagueofmoveabletype.com">League of Moveable Type</a></li>
+			<li><a href="http://www.google.com/fonts">Google web fonts</a> and check out <a href="http://hellohappy.org/beautiful-web-type/">a nice selection in use</a>. Myself I think: Open Sans, PT Sans, Signika, Source Sans Pro are all nice.</li>
+		</ul>
+
+<pre>/* for our LOCAL purposes we could use the most BASIC implementation of @font-face ever, 
+	if we wanted to check out how a typeface we own in otf might look while we are sketching. 
+	You would not do this if your site were published in any way. */
+
+@font-face {
+  font-family: "MyriadPro-Bold";
+  src: url("type/MyriadPro-Bold.otf") format("opentype");
+  }
+
+@font-face {
+  font-family: "MinionPro-Semibold";
+  src: url("type/MinionPro-Semibold.otf") format("opentype");
+  }
+
+/* now the fonts have been brought in for use you can include them in the rules you write */</pre>
+
+    </body>
+    
+</html>
