@@ -1,18 +1,20 @@
-
+video{
+	float:left;
+	margin-top:10%;
+}
 #box{
 	height: 500px;
 	width: 400px;
-	border-top: 2px black solid;
-	border-bottom: 2px black solid;
 	overflow-y: scroll;
 	overflow-x: hidden;
+	border-top:2px solid #e4e4e4;
 	margin-left:50px;
 	float:left;
 
 }
 #box2{
 	float: left;
-	height: 900px;
+	height: 1100px;
 	width: 400px;
 	margin:auto;
 	overflow-y: scroll;
@@ -21,7 +23,7 @@
 
 #browser{
 	height:900px;
-	width:4000px;
+	width:2800px;
 	background-color:white;
 	overflow-x:scroll;
 	overflow-y:hidden;
@@ -160,7 +162,7 @@
 
 #img_box{
 	height:1000px;
-	width:3000px;
+	width:2000px;
 	background-color:white;
 	float:left;
 }
@@ -188,14 +190,15 @@
 }
 
 #img3{
-	height:450px;
-	width:14.6%;
+	height:410px;
+	width:500px;
 	background-color:white;
 	float:left;
 	margin-left:5%;
 	margin-right:5%;
 	margin-top:2%;
 	float:left;
+	overflow:hidden;
 }
 #logo{
 	margin-left:50px;
@@ -206,7 +209,8 @@
 	width:60%;
 	position:fixed;
 	right:0px;
-	background-color:white;
+	background-color:transparent;
+	z-index:2;
 }
 
 #text{
@@ -223,71 +227,78 @@
 
 }
 
+#textboxp{
+	font-family: 'roboto' sans-serif;
+	font-style: 300;
+	font-size:14px;
+	margin-top:5%;
+}
+
 #textbox{
 	font-family: 'roboto' sans-serif;
 	font-style: 300;
 	font-size:14px;
-	margin-top:18%;
+	margin-top:10%;
 }
 
 #textbox2{
 	font-family: 'roboto' sans-serif;
 	font-style: 300;
 	font-size:14px;
-	margin-top:8%;
+	margin-top:5%;
 }
 #Work{
 	height:250px;
 	width:220px;
-	background-color:white;
+	background-color:transparent;
 	float:left;
-	position:relative
+	position:relative;
 }
 
 #Publications{
 	height:250px;
 	width:220px;
-	background-color:white;
+	background-color:transparent;
 	float:left;
-	position:relative
+	position:relative;
 
 }
 #Writings{
 	height:250px;
 	width:220px;
-	background-color:white;
+	background-color:transparent;
 	float:left;
-	position:relative
+	position:relative;
 
 }
 #About{
 	height:250px;
 	width:220px;
-	background-color:white;
+	background-color:transparent;
 	float:left;
 
 }
 ul{
 	font-family:'roboto' sans-serif;
-	font-size:22px;
+	font-size:18px;
 	font-style:bold;
-	color:grey;
-	line-height:20px;
+	color:#d3d3d3;
+	line-height:18px;
 	list-style-type:none;
 }
 ul:hover{
 	font-family:'roboto' sans-serif;
-	font-size:22px;
+	font-size:18px;
 	font-style:bold;
 	color:black;
-	line-height:20px;
+	line-height:18px;
 	list-style-type:none;
 }
 ul:hover li{
 	font-family:'roboto' sans-serif;
 	font-size:14px;
 	font-style:bold;
-	color:grey;
+	color:black;
 	line-height:20px;
 	list-style-type:none;
 	opacity:1.0;
