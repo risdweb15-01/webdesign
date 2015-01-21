@@ -31,7 +31,7 @@
 .title{
 	position: fixed;
 	z-index:2;
-	width: 230px;
+	width: 400px;
 	margin-top: 60px;
 	font-family:Avenir;
 	text-align: left;
@@ -60,8 +60,8 @@
 .dimensions{
 	position: fixed;
 	z-index:2;
-	width: 180px;
-	margin-top: 500px;
+	width: 220px;
+	margin-top: 360px;
 	font-family: Avenir;
 	font-size: 12px;
 	text-align: left;
@@ -71,8 +71,7 @@
 .img_container{
 	position: absolute;
 	width: 700px;
-	height: 3435px;
-	margin-top: 20px;
+	height: 4121px;
 	margin-left: 600px;
 	background-color: white;
 }
@@ -118,6 +117,15 @@
 	width: 700px;
 	height: 466px;
 	margin-top: 2829px;
+	margin-left: 0px;
+	background-color: blue;
+}
+
+.img_6{
+	position: absolute;
+	width: 700px;
+	height: 466px;
+	margin-top: 3495px;
 	margin-left: 0px;
 	background-color: blue;
 }

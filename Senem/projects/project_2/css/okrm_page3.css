@@ -1,3 +1,15 @@
+.arrow{
+	margin-left: 35px;
+	margin-top: 66px;
+	position: fixed;
+    height: 0px; 
+    width: 0px; 
+    border-top: 45px solid transparent; 
+    border-bottom: 45px solid transparent; 
+    border-right: 45px solid #FFFF30;
+    z-index: 5
+}
+
 .text{
 	position: fixed;
 	z-index:2;
@@ -19,7 +31,7 @@
 .title{
 	position: fixed;
 	z-index:2;
-	width: 200px;
+	width: 350px;
 	margin-top: 60px;
 	font-family:Avenir;
 	text-align: left;
@@ -48,10 +60,10 @@
 .dimensions{
 	position: fixed;
 	z-index:2;
-	width: 300px;
+	width: 250px;
 	margin-top: 530px;
 	font-family: Avenir;
-	font-size: 14px;
+	font-size: 12px;
 	text-align: left;
 }
 
@@ -59,7 +71,8 @@
 .img_container{
 	position: absolute;
 	width: 700px;
-	height: 4790px;
+	height: 4101px;
+	margin-top: 20px;
 	margin-left: 600px;
 	background-color: white;
 }
@@ -118,14 +131,6 @@
 	background-color: blue;
 }
 
-.img_7{
-	position: absolute;
-	width: 700px;
-	height: 466px;
-	margin-top: 4161px;
-	margin-left: 0px;
-	background-color: blue;
-}
 
 
 
