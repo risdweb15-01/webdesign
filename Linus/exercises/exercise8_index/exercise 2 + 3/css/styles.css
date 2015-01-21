@@ -1,0 +1,42 @@
+body{
+
+	background-color: #f08080; 
+	font-family: "Courier New";
+	background-image: url("http://graphexawards.ca/sites/default/files/carl_dair-banner_0.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top right;
+
+}
+
+#navbar p { 
+
+font-family: "Courier New";
+
+}
+
+.carldair p { 
+
+background-color: pink;
+color: white;
+width: 200px;
+height: 25px;
+
+}
+
+p{
+            color: white;
+          }
+
+h1{
+            color: pink;
+        }
+
+h2{
+            color: grey;
+        }
+
+ul{ 
+            color: grey;
+        }
+
