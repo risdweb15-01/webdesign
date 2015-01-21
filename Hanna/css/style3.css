@@ -30,7 +30,7 @@ h1 {
 
 a {
 	text-decoration: none;
-	list-style-type: none;
+	list-style-type: circle;
 	font-family: 'Helvetica Neue', sans-serif;
 	font-weight: 200;
 	font-size: 30px;
@@ -38,7 +38,7 @@ a {
 
 }
 
-p {
+.cool {
 	text-decoration: none;
 	list-style-type: none;
 	font-family: 'Helvetica Neue', sans-serif;
@@ -46,5 +46,4 @@ p {
 	font-size: 20px;
 	color: gray;
 	margin-left: 40px;
-
 }
