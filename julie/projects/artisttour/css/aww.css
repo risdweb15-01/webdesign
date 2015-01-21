@@ -1,4 +1,6 @@
 div{
+			font-family: 'Arvo', serif;
+
 	width:3200px;
 	height:800px;
 	background-color:#F2FAF0;
@@ -41,7 +43,7 @@ h3{
 }
 
 h4{
-	width:500px;
+	width:600px;
 	height:200px;
 	color:black;
 	z-index: 0;
