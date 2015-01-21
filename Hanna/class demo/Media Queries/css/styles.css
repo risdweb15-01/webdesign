@@ -12,6 +12,16 @@
   background-color: #40b7d7;
 }
 
+
+.three{
+
+	background-color: black;
+	color:white;
+	width: 20%;
+	margin: 5%;
+
+
+}
 	@media screen and (max-width: 600px) { 
 		.col{
 			float: none;
@@ -19,3 +29,12 @@
 			width: 100%;
 		}
 	}
+
+	@media screen and (max-width: 1200px) { 
+		.three{
+			float: none;
+			margin:0;
+			width: 100%;
+		}
+	}
+

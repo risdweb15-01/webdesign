@@ -39,6 +39,8 @@ body{
 	height: 650px;
 	position: relative;
 	float: left;
+	padding-top: 10px;
+
 }
 
 
@@ -88,6 +90,7 @@ body{
 
 #main5:hover  {
 	opacity: 0.5;
+	/*bottom: 20px;*/
 }
 
 #main5 {
@@ -141,8 +144,29 @@ body{
 	top:53%; 
 }
 
+#main1:hover  {
+	opacity: .5;
+
+}
+#main2:hover  {
+	opacity: .5;
+
+}
+#main3:hover  {
+	opacity: .5;
+
+}
+#main4:hover  {
+	opacity: .5;
+
+}
+#main7:hover  {
+	opacity: .5;
+
+}
 #main6:hover  {
 	opacity: .5;
+	/*margin-top: 25px;*/
 
 }
 
@@ -170,7 +194,7 @@ body{
 	margin: auto auto auto auto;
 	width: 500px;
 	height: 650px;
-	margin-top: 30px;
+	margin-top: 100px;
 
 }
 
@@ -183,13 +207,19 @@ body{
 
 .big-box {
 	margin: auto auto auto auto;
-	width: 950px;
-	height: 700px;
+	width: 1000px;
+	height: 750px;
+	overflow:hidden;
 }
 
 #about-img{
 	position:relative;
-	margin: auto auto auto auto;
+	margin-top: 10px;
+	width: auto;
+	height: 600px;
+	float:left;
+	margin-left: 120px
+
 }
 
 #a:link{
@@ -307,5 +337,48 @@ body{
 	text-decoration: none;
 	font-family: Arial, sans-serif;
 	font-size: 15px;
+}
+
+h1{
+	position:relative;
+	float:left;
+	font-family: Arial, sans-serif;
+	font-weight: 100;
+	font-size: 100px;
+	color:#d6d6d6;
+	width:100px;
+	height: 200px;
+	z-index: 5;
+	top: 100px;
+	left: 20px; 
+	line-height: 90px;
+}
+
+#info{
+	position: relative;
+	float: left;
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	color:black;
+	width:540px;
+	height: 250px;
+	overflow:scroll;
+	z-index: 6;
+	top:350px;
+	left: -70px;
+}
+
+
+.back-gray{
+	position:relative;
+	margin: auto auto auto auto;
+	width:1000px;
+	height:625px;
+	border-top: solid;
+	border-bottom: solid;
+	border-width: 2px;
+	border-color: gray;
+	background-color: white;
+	overflow: hidden;
 }
 
