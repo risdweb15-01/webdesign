@@ -26,6 +26,15 @@ ul li{
 	text-decoration: none;
 }
 
+h1 {
+
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: 200;
+	font-size: 30px;
+	color: #dbb858;
+	text-decoration: none;
+}
+
 
 a {
 	text-decoration: none;
@@ -43,7 +52,7 @@ p {
 	font-family: 'Helvetica Neue', sans-serif;
 	font-weight: 200;
 	font-size: 20px;
-	color: #e7d49f;
+	color: gray;
 	margin-left: 40px;
 
 }
